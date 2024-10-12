@@ -1,0 +1,18 @@
+{
+  "name": "DarkBug Version 2.0",
+  "description": "whatsapp md bot by ruzx",
+  "repository": "https://whatsapp.com/channel/0029VagsKCm2Jl8MLtsO733W",
+  "logo": "https://i.ibb.co.com/JjBY969/0034c04a-de5f-4286-a99d-c66c51eaaf79.jpg,
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
